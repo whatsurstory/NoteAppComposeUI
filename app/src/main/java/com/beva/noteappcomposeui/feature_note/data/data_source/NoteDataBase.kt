@@ -6,7 +6,7 @@ import com.beva.noteappcomposeui.feature_note.domain.model.Note
 
 @Database(
     entities = [Note::class],
-    version = 1
+    version = 2
 )
 abstract class NoteDataBase: RoomDatabase() {
     abstract val noteDao: NoteDao
